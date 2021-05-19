@@ -1,0 +1,23 @@
+# Header Menu Bar
+main:
+  - name: "Register"
+    url: "/register/"
+    weight: 1
+  - name: "Information"
+    url: "/info/"
+    weight: 2
+  - name: "Speakers"
+    url: "/speakers/"
+    weight: 3
+  - name: "Team"
+    url: "/team/"
+    weight: 4
+  - name: "Code of Conduct"
+    url: "/conduct/"
+    weight: 5
+
+# Footer Menu Bar
+footer:
+  - name: "Contact"
+    url: "/contact/"
+    weight: 99

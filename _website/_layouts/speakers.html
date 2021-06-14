@@ -22,7 +22,7 @@ bodyClass: page-team-list
             <div class="team team-summary team-summary-large">
                 {% if team.image %}
                 <div class="team-image">
-                    <img alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                    <img alt="{{ team.title }}" class="img-fluid mb-2" style="width: {{ team.circle_img_width_pix }}px"src="{{ team.image | relative_url }}" />
                 </div>
                 {% endif %}
                 <div class="team-meta">

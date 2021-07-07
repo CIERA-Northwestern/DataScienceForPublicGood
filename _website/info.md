@@ -16,7 +16,7 @@ Whether you **already know how to program** or have **never touched a computer b
 - Guided hands-on activities applying data science to public good problems.
 - [Guest speakers (real data scientists!)]({{ site.baseurl }}{% link speakers.md %}).
 - Learn about jobs & careers.
-- [Tenative Schedule]({{ site.baseurl }}{% link schedule.md %})
+- [Schedule]({{ site.baseurl }}{% link schedule.md %})
 
 ### **Where and When?**
 > - Date: {{ site.data.conference_info.conference_date }}, {{ site.data.conference_info.conference_time }}

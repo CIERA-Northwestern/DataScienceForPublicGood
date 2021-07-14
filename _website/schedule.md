@@ -8,7 +8,7 @@ layout: page
 #### as of July 14, 2021
 
 | ------: | :------- | --------- |
-|  9:00am |   9:30am | Greetings, Introductions, How to use gather.town   |
+|  9:00am |   9:30am | Greetings, Introductions |
 |  9:30am |  10:00am | [Speaker: Katie Peek]({{ site.baseurl }}{% link _speaker/katie-peek.md %}) (incl. 10 min Q&A) |
 | 10:00am |  10:30am | Icebreaker activity  |
 | 10:30am |  11:00am | [Speaker: Kat Albrecht]({{ site.baseurl }}{% link _speaker/kat-albrecht.md %}) (incl. 10 min Q&A) |

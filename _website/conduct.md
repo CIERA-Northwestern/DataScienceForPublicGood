@@ -19,7 +19,7 @@ All program participants agree to comply with the following code of conduct when
 
 Failure to comply with these policies may constitute grounds for removal from the program.
 
-If participants find other participants or staff who fail to comply with any of these criteria, they can voice their concerns to the organizers at <a href="mailto:CIERA-events@northwestern.edu"> CIERA-events@northwestern.edu </a> or the anonymous form at [[to be updated]](#).
+If participants find other participants or staff who fail to comply with any of these criteria, they can voice their concerns to the organizers at <a href="mailto:CIERA-events@northwestern.edu"> CIERA-events@northwestern.edu </a> or the anonymous form at [https://forms.gle/v1zwS4BNbTZ6Xnfr7](https://forms.gle/v1zwS4BNbTZ6Xnfr7).
 
 In addition, Program staff are expected to follow a similar code of conduct, adhering to all requirements set out by Northwestern University for working with minors, including:
 

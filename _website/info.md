@@ -20,7 +20,7 @@ Whether you **already know how to program** or have **never touched a computer b
 
 ### **Where and When?**
 > - Date: {{ site.data.conference_info.conference_date }}, {{ site.data.conference_info.conference_time }}
-- Online via gather.town
+- Online via Zoom
 - Hosted virtually at Northwestern University by PhD students & researchers.
 
 ### **What do you need to do?**

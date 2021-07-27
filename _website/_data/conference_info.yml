@@ -15,3 +15,9 @@ registration_form_link: 'https://forms.gle/5ZPoAt1oYdQ35Bra8'
 
 # Conference Information Link
 more_info_button_link : '/info/'
+
+# Contact
+contact_link : '/contact/'
+
+# is registration open? (boolean: true / false)
+registration_open : false

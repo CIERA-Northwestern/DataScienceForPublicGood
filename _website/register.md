@@ -8,7 +8,7 @@ intro_image_hide_on_mobile: true
 bodyClass: page-services-list
 ---
 
-{% include registration_form.html can_register=true %}
+{% include registration_form.html %}
 
 <br/>
 

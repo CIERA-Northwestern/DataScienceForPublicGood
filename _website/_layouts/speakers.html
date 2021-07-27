@@ -18,23 +18,27 @@ bodyClass: page-team-list
     <div class="row">
         {% assign sorted_speakers = site.speaker |  sort: "weight" %}
         {% for team in sorted_speakers %}
-        <div class="col-12 col-md-10 mx-auto mb-2">
-            <div class="team team-summary team-summary-large">
-                {% if team.image %}
-                <div class="team-image">
-                    <img alt="{{ team.title }}" class="img-fluid mb-2" style="width: {{ team.circle_img_width_pix }}px"src="{{ team.image | relative_url }}" />
-                </div>
-                {% endif %}
-                <div class="team-meta">
-                    <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
-                    <p class="team-description">{{ team.jobtitle }}</p>
-                    {% if team.linkedinurl %}
-                    <a target="_blank" href="{{ team.linkedinurl }}">LinkedIn</a>
+        {% if team.current %}
+            <div class="col-12 col-md-10 mx-auto mb-2">
+                <div class="team team-summary team-summary-large">
+                    {% if team.image %}
+                    <div class="team-image">
+                        <img alt="{{ team.title }}" class="img-fluid mb-2" style="width: {{ team.circle_img_width_pix }}px"src="{{ team.image | relative_url }}" />
+                    </div>
                     {% endif %}
+                    <div class="team-meta">
+                        <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
+                        {% if team.recording_link %}
+                        <p class="team-description"><a target="_blank" href="{{ team.recording_link }}">Link to Youtube Talk</a></p>
+                        {% endif %}
+                        {% if team.linkedinurl %}
+                        <a target="_blank" href="{{ team.linkedinurl }}">LinkedIn</a>
+                        {% endif %}
+                    </div>
+                    <div class="team-content">{{ team.content | truncate: 240 }}</div>
                 </div>
-                <div class="team-content">{{ team.content | truncate: 240 }}</div>
             </div>
-        </div>
+            {% endif %}
         {% endfor %}
     </div>
 </div>

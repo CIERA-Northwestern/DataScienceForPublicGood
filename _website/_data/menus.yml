@@ -1,8 +1,11 @@
 # Header Menu Bar
 main:
-  - name: "Register"
-    url: "/register/"
+  - name: "2021"
+    url: "/2021/"
     weight: 1
+  # - name: "Register"
+  #   url: "/register/"
+  #   weight: 1
   - name: "Information"
     url: "/info/"
     weight: 2
